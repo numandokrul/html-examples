@@ -1,0 +1,61 @@
+﻿<html>
+
+<head>
+</head>
+<body>
+<h2> ABC Tasarım Programı Kurulum ve satış Sözleşmesi </h2>
+
+<form >
+<fieldset>
+<legend> Sözleşme Onay </legend>
+<input type="checkbox" name="c2" > Aşağıdaki bilgilerin doğru olduğunu kabul ediyorum ve sçzleşmeyi onaylıyorum.<br>
+   <input type="submit" value="Formu Kaydet"> 
+ <input type="submit" value="Formu Temizle"> 
+
+ </fieldset>
+<fieldset>
+<legend>Kişisel Bilgiler </legend>
+  <table>
+<tr> <td>Adınız</td> <td>:</td> <td><input type="text" name="ad"  ></td>
+ <tr> <td>Soyadınız </td>  <td>: </td>  <td><input type="text" name="soy"> </td>
+<tr> <td> Yaş</td>  <td>: </td>
+  <td> <input type="number" name="yas" max="100" min="18"> </td>   
+  
+  
+<tr> 
+<td>E-Mail</td>
+<td>:</td>
+<td> <input type="email" name="mail"  ></td>
+ </tr>
+
+<tr> <td>
+Fotoğraf Ekle: <br>
+<input type="file" name="dosyasec"> 
+
+</fieldset>
+
+<fieldset> 
+<legend>Diğer Bilgiler </legend>
+ 
+   <h4>Buradaki bilgiler Mesleki Deneyimi Kapsar<h4>
+<table>
+<tr> <td> Sektöre Giriş Tarihi </td> 
+     <td> <input type="date" name="date"> </td> </tr>
+
+     <tr> <td> Sektöre Deneyimi </td> 
+     <td> <input type="radio" name="c1"> 1-5 Yıl</td> 
+<td> <input type="radio" name="c2"> 6-10 Yıl</td> 
+     <td> <input type="radio" name="c3"> 11-15 Yıl</td> 
+     <td> <input type="radio" name="c4"> 15 üzeri yıl</td> </tr>
+
+  <tr> <td> Programlama Dilleri</td> <td>:</td> 
+  <td> <select name="ydil" size="2" multiple="multiple">
+  <option>İngilizce</option>
+  <option>Almanca</option>
+  <option>Rusça</option>
+ </select> </td>
+ </fieldset>
+
+</form>
+</body>
+</html>
